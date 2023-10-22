@@ -266,6 +266,7 @@ PRODUCT_PACKAGES += \
     charger_fw_fstab.qti:64 \
     fstab.qcom:64 \
     init.garnet.rc:64 \
+    init.garnet.perf.rc:64 \
     init.qcom.rc:64 \
     init.recovery.qcom.rc:64 \
     init.target.rc:64 \
