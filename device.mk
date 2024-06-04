@@ -267,6 +267,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom:64 \
     init.garnet.rc:64 \
     init.garnet.perf.rc:64 \
+    init.garnet.perf.sh:64 \
     init.qcom.rc:64 \
     init.recovery.qcom.rc:64 \
     init.target.rc:64 \
