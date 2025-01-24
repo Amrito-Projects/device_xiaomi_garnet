@@ -69,18 +69,18 @@ PRODUCT_PACKAGES += \
     agmcap:64 \
     agmcompressplay:64 \
     agmplay:64 \
+    lib_bt_aptx:64 \
+    lib_bt_ble:64 \
+    lib_bt_bundle:64 \
     libagm_compress_plugin:64 \
     libagm_mixer_plugin:64 \
     libagm_pcm_plugin:64 \
-    libagmclient:64 \
-    libagmmixer:64 \
     libbatterylistener:64 \
     libfmpal:64 \
     libpalclient:64 \
     libqcompostprocbundle:64 \
     libqcomvisualizer:64 \
     libqcomvoiceprocessing:64 \
-    libsndcardparser:64 \
     libvolumelistener:64
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8450/audio/primary-hal
