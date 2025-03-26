@@ -197,9 +197,9 @@ on boot
     #USB controller configuration
     setprop vendor.usb.controller a600000.dwc3
 
-    #chown/chmod input_suspend node
-    chown system system /sys/class/qcom-battery/input_suspend
-    chmod 774 /sys/class/qcom-battery/input_suspend
+    #chown/chmod night_charging node
+    chown system system /sys/class/qcom-battery/night_charging
+    chmod 774 /sys/class/qcom-battery/night_charging
 
 
     # game plaid mode
