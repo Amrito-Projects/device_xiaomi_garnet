@@ -215,6 +215,11 @@
     <ctl name="aw882xx_spk_sw_gpio_switch" value="0"/>
     <!-- awinic controls end -->
 
+    <!-- add fs19xx controls -->
+    <ctl name="FSM_Scene" value="0" />
+    <ctl name="FSM_Ultrasound_Enable" value="0" />
+    <!-- fs19xx controls end -->
+
     <!-- Compander controls -->
     <ctl name="WSA_COMP1 Switch" value="0" />
     <ctl name="WSA_COMP2 Switch" value="0" />
@@ -372,6 +377,7 @@
     <path name="speaker">
         <ctl name="aw_dev_0_switch" value="Enable" />
         <ctl name="aw_dev_1_switch" value="Enable" />
+        <ctl name="FSM_Scene" value="0" />
         <ctl name="WSA RX0 MUX" value="AIF1_PB" />
         <ctl name="WSA RX1 MUX" value="AIF1_PB" />
         <ctl name="WSA_RX0 INP0" value="RX0" />
@@ -392,6 +398,7 @@
 
     <path name="speaker-mono">
         <ctl name="aw_dev_0_switch" value="Enable" />
+        <ctl name="FSM_Scene" value="1" />
         <ctl name="WSA RX0 MUX" value="AIF1_PB" />
         <ctl name="WSA_RX0 INP0" value="RX0" />
         <ctl name="WSA_COMP1 Switch" value="1" />
@@ -583,6 +590,7 @@
         <ctl name="aw_dev_0_prof"  value="Receiver" />
         <ctl name="aw_dev_0_switch" value="Enable" />
         <ctl name="aw882xx_spk_sw_gpio_switch" value="1" />
+        <ctl name="FSM_Scene" value="15" />
         <ctl name="WSA RX0 MUX" value="AIF1_PB" />
         <ctl name="WSA_RX0 INP0" value="RX0" />
         <ctl name="WSA_COMP1 Switch" value="1" />
@@ -604,6 +612,7 @@
         <ctl name="aw_dev_0_prof"  value="Receiver" />
         <ctl name="aw_dev_0_switch" value="Enable" />
         <ctl name="aw882xx_spk_sw_gpio_switch" value="1" />
+        <ctl name="FSM_Ultrasound_Enable" value="1" />
         <ctl name="WSA RX_MIX0 MUX" value="AIF_MIX1_PB" />
         <ctl name="WSA_RX0 MIX INP" value="RX_MIX0" />
         <ctl name="WSA_COMP1 Switch" value="1" />
@@ -1293,11 +1302,13 @@
     <path name="speaker-top">
         <ctl name="aw_dev_0_prof"  value="Music" />
         <ctl name="aw_dev_0_switch" value="Enable" />
+        <ctl name="FSM_Scene"  value="7" />
         <path name="speaker" />
     </path>
     <path name="speaker-bot">
         <ctl name="aw_dev_1_prof"  value="Music" />
         <ctl name="aw_dev_1_switch" value="Enable" />
+        <ctl name="FSM_Scene"  value="9" />
         <path name="speaker" />
     </path>
     <path name="va-mic-enroll">
