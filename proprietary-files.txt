@@ -2190,6 +2190,10 @@ vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
 # Touchscreen
+vendor/firmware/focaltech_ts_fw_GVO.bin:recovery/root/vendor/firmware/focaltech_ts_fw_GVO.bin
+vendor/firmware/focaltech_ts_fw_TianMa.bin:recovery/root/vendor/firmware/focaltech_ts_fw_TianMa.bin
+vendor/firmware/goodix_cfg_group_CSOT.bin:recovery/root/vendor/firmware/goodix_cfg_group_CSOT.bin
+vendor/firmware/goodix_firmware_CSOT.bin:recovery/root/vendor/firmware/goodix_firmware_CSOT.bin
 vendor/firmware/focaltech_ts_fw_GVO.bin
 vendor/firmware/focaltech_ts_fw_TianMa.bin
 vendor/firmware/goodix_cfg_group_CSOT.bin
