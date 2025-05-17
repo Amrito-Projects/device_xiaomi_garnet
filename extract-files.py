@@ -90,8 +90,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'on charger', r'on property:init.svc.vendor.charger=running'),
     'vendor/etc/vintf/manifest/c2_manifest_vendor.xml': blob_fixup()
         .regex_replace(r'.+dolby.+\n', ''),
-    'vendor/etc/media_codecs_parrot_v0.xml': blob_fixup()
-        .regex_replace(r'.+media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).+\n', ''),
     'vendor/etc/perf/commonresourceconfigs.xml': blob_fixup()
         .regex_replace('.+<Minor OpcodeValue="0x16" Node="/sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime/min_freq" />+\n', '')
         .regex_replace('.+<Minor OpcodeValue="0x12" Node="/sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/max_freq" />+\n', '')
